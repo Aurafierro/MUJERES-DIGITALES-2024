@@ -3,13 +3,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    margin: 50px auto;
     background-color: #f9f9f9;
     color: #333;
+    min-height: 100vh;
+    justify-content: center;
 }
 
-input,
-button {
+input {
     margin: 10px;
     padding: 10px;
     border: 1px solid #ccc;
@@ -17,19 +18,26 @@ button {
 }
 
 button {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
     background-color: #5cb85c;
     color: white;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #4cae4c;
+
+.button-container {
+    display: flex;
+    align-items: center;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
     width: 300px;
+    margin: 20px auto 0 auto;
 }
 
 li {

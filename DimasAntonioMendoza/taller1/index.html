@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestor de Tareas</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../TALLER1/styles.css">
 </head>
 <body>
     <h1>Gestor de Tareas</h1>
-    <input type="text" id="taskInput" placeholder="Nueva tarea...">
-    <button id="addTaskBtn">Agregar Tarea</button>
+    <p>Agrega una nueva tarea por realizar.</p>
+    <div class="button-container">
+        <input type="text" id="texto" placeholder="Nueva tarea...">
+        <button id="addTaskBtn" onclick="AgregarTarea();">Agregar Tarea</button>
+        <a href="./listaTareas.html"><button id="viewTasksBtn">Ir a la lista de tareas</button></a>  
+    </div>
     <ul id="taskList"></ul>
     <script src="app.js"></script>
 </body>
