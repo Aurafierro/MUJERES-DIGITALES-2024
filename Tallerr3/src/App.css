@@ -1,0 +1,35 @@
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebebeb; 
+}
+
+.contenedor {
+  background-color: rgb(29, 49, 94);
+  color: white;
+  width: 400px; 
+  padding: 20px;
+  text-align: center;
+  border-radius: 60px;
+}
+
+form {
+  margin: 20px 0;
+}
+
+input {
+  margin: 10px 0; 
+  padding: 6px;
+  border: none; 
+  border-radius: 34px;
+}
+
+button {
+  
+  color: rgb(99, 99, 99);
+  border: none;
+  margin-top: 20px; 
+}
